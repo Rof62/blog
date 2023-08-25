@@ -1,0 +1,16 @@
+.grid {
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(3, 350px);
+    grid-auto-columns: repeat(3, 350px);
+    gap: 20px;
+}
+
+.item {
+    height: 500px;
+    border: 1px solid var(--primary);
+}
+
+.contentCard {
+    width: 1130px;
+}

@@ -1,0 +1,8 @@
+.header {
+  padding: 10px 20px;
+  box-shadow: var(--box-shadow-nav);
+  color: var(--primary);
+}
+.header img {
+  width: 70px;
+}/*# sourceMappingURL=Header.module.css.map */

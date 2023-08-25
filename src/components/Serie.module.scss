@@ -1,0 +1,28 @@
+.serie {
+    border-radius: 20px;
+    height: 500px;
+    cursor: pointer;
+    .imgContainer {
+      height: 450px;
+      overflow: hidden;
+      img {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        width: 100%;
+        transition: 1s transform;
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+    .title {
+      height: 50px;
+      border: 1px solid var(--gray-2);
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      transition: 0.2s color;
+      &:hover {
+        color: var(--error);
+      }
+    }
+  }
